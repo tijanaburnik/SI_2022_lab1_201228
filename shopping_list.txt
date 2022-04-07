@@ -1,5 +1,6 @@
 Eggs x3
 Milk x4
 Meat x3
-Chocolate x10
+Corn x10
 Chips x6
+Candy x2
