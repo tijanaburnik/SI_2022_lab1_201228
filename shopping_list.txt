@@ -1,5 +1,5 @@
 Eggs x3
-Milk x4
+Milk x3
 Meat x3
 Chocolate x10
 Chips x6
