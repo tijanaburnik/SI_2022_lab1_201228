@@ -1,0 +1,157 @@
+4. git clone https://github.com/tijanaburnik/SI_2022_lab1_201228.git
+5. Kriram nov file
+   git .add 
+   commit -m “Add 5 items to the shopping list”
+6. git .add 
+   commit -m “Add quantities to the items.”
+7. git checkout -b branch1
+   git checkout master
+   git checkout -b branch2
+   git checkout master
+8. PS C:\Users\Tijana\OneDrive\Desktop\SI_2022_lab1_201228> git log
+commit 26cf45fbf827c5b9d19307f8e7c6cecb4b9591c8 (HEAD -> master, branch2, branch1)
+Author: tijanaburnik <tijana.burnik@synami.com>
+Date:   Thu Apr 7 19:05:59 2022 +0200
+
+    Add quantities to the items.
+
+commit b0dfa35b335d00fc405757da3645fe6091771f7b
+Author: tijanaburnik <tijana.burnik@synami.com>
+Date:   Thu Apr 7 18:54:25 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit 2ff612982376351c4b959267e8971936bf09513c (origin/master, origin/HEAD)
+Author: tijanaburnik <98823032+tijanaburnik@users.noreply.github.com>
+Date:   Thu Apr 7 18:44:00 2022 +0200
+
+    Initial commit
+9. git push origin master
+   git push origin branch1
+   git push origin branch2
+10. git checkout branch1
+11. git add .
+    git commit -m "Change quantity of item #5"
+12. git checkout master
+13. git add .
+    git commit -m "Change quantity of item #2"
+14. git push origin master
+    git push origin branch1
+15. git checkout branch2
+16.  git add .
+     git commit -m "Modify item #4"
+17. Log od master
+PS C:\Users\Tijana\OneDrive\Desktop\SI_2022_lab1_201228> git log
+commit a50b7504bff7f322b96cc4376d24071c4ef4802a (HEAD -> master, origin/master, origin/HEAD)
+Author: tijanaburnik <tijana.burnik@synami.com>
+Date:   Thu Apr 7 19:13:42 2022 +0200
+
+    Change quantity of item #2
+
+commit 26cf45fbf827c5b9d19307f8e7c6cecb4b9591c8 (origin/branch2)
+Author: tijanaburnik <tijana.burnik@synami.com>
+Date:   Thu Apr 7 19:05:59 2022 +0200
+
+    Add quantities to the items.
+
+commit b0dfa35b335d00fc405757da3645fe6091771f7b
+Author: tijanaburnik <tijana.burnik@synami.com>
+Date:   Thu Apr 7 18:54:25 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit 2ff612982376351c4b959267e8971936bf09513c
+Author: tijanaburnik <98823032+tijanaburnik@users.noreply.github.com>
+Date:   Thu Apr 7 18:44:00 2022 +0200
+
+    Initial commit
+
+Log od branch1
+
+commit bbf5a86f09cca463b508a91680bb16a1f013d23a (HEAD -> branch1, origin/branch1)
+Author: tijanaburnik <tijana.burnik@synami.com>
+Date:   Thu Apr 7 19:12:15 2022 +0200
+
+    Change quantity of item #5
+
+commit 26cf45fbf827c5b9d19307f8e7c6cecb4b9591c8 (origin/branch2)
+Author: tijanaburnik <tijana.burnik@synami.com>
+Date:   Thu Apr 7 19:05:59 2022 +0200
+
+    Add quantities to the items.
+
+commit b0dfa35b335d00fc405757da3645fe6091771f7b
+Author: tijanaburnik <tijana.burnik@synami.com>
+Date:   Thu Apr 7 18:54:25 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit 2ff612982376351c4b959267e8971936bf09513c
+Author: tijanaburnik <98823032+tijanaburnik@users.noreply.github.com>
+Date:   Thu Apr 7 18:44:00 2022 +0200
+
+    Initial commit
+Log od branch2
+
+PS C:\Users\Tijana\OneDrive\Desktop\SI_2022_lab1_201228> git log
+commit 97581a35aaca8ba029102302278f588acdd52c44 (HEAD -> branch2)
+Author: tijanaburnik <tijana.burnik@synami.com>
+Date:   Thu Apr 7 19:18:11 2022 +0200
+
+    Modify item #4
+
+commit 26cf45fbf827c5b9d19307f8e7c6cecb4b9591c8 (origin/branch2)
+Author: tijanaburnik <tijana.burnik@synami.com>
+Date:   Thu Apr 7 19:05:59 2022 +0200
+
+    Add quantities to the items.
+
+commit b0dfa35b335d00fc405757da3645fe6091771f7b
+Author: tijanaburnik <tijana.burnik@synami.com>
+Date:   Thu Apr 7 18:54:25 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit 2ff612982376351c4b959267e8971936bf09513c
+Author: tijanaburnik <98823032+tijanaburnik@users.noreply.github.com>
+Date:   Thu Apr 7 18:44:00 2022 +0200
+
+    Initial commit
+
+18. git commit --amend -m "Modify item #4 and add item #6"
+19. log od branch 2
+PS C:\Users\Tijana\OneDrive\Desktop\SI_2022_lab1_201228> git log
+commit e67e4355cb35d07c2119257d0e2f2d0cdc89e1e4 (HEAD -> branch2)
+Author: tijanaburnik <tijana.burnik@synami.com>
+Date:   Thu Apr 7 19:18:11 2022 +0200
+
+    Modify item #4 and add item #6
+
+commit 26cf45fbf827c5b9d19307f8e7c6cecb4b9591c8 (origin/branch2)
+Author: tijanaburnik <tijana.burnik@synami.com>
+Date:   Thu Apr 7 19:05:59 2022 +0200
+
+    Add quantities to the items.
+
+commit b0dfa35b335d00fc405757da3645fe6091771f7b
+Author: tijanaburnik <tijana.burnik@synami.com>
+Date:   Thu Apr 7 18:54:25 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit 2ff612982376351c4b959267e8971936bf09513c
+Author: tijanaburnik <98823032+tijanaburnik@users.noreply.github.com>
+Date:   Thu Apr 7 18:44:00 2022 +0200
+
+    Initial commit
+
+20. git checkout master
+    git merge branch1
+    rekurzivna strategija
+21. git merge branch2
+    Ima knflokt I mora uste eden commit
+    Git add .
+    git commit -m "Merge branch2 'branch2'"
+    git merge branch2
+23. git push
+
